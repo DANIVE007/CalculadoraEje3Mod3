@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Icono de la calculadora -->
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="156dp"
+        android:src="@drawable/iconocalculadora" />
+
+    <!-- Campo para el primer número -->
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer Numero"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Campo para el segundo número -->
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo Numero"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botones para las operaciones -->
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Resultado"
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMA"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTA"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVISION"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICACION"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Botón para salir de la aplicación -->
+
+    <!-- Campo para mostrar el resultado -->
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#800080"
+        android:text="SALIR"
+        android:textColor="#FFFFFF" />
+
+    <!-- Texto de crédito al desarrollador -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+        android:text="Desarrollado por Daniel Iturra"
+        android:textSize="12sp" />
+
+</LinearLayout>
